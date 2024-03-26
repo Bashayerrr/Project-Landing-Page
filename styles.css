@@ -1,0 +1,185 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.background {
+    background-color: #FF8C00
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 48px;
+    gap: 32px;
+}
+
+#logo {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    display: flex;
+    flex-basis: 500px;
+}
+
+ul {
+    font-size: 18px;
+    display: flex;
+    gap: 64px;
+}
+
+.list {
+    display: flex;
+    flex-basis: 500px;
+    /* border: 1px solid white; */
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
+button {
+    background-color: #fcaa5d;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    border: none;
+    border-radius: 32px;
+    width: 250px;
+    margin-top: 32px;
+}
+
+.header-bottom {
+    display: flex;
+    padding: 48px;
+    color: #f9faf8;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 32px;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+h3 {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.text-1 {
+    display: flex;
+    flex-basis: 500px;
+    flex-direction: column;
+}
+
+.header-pic {
+    display: flex;
+    max-width: 500px;
+    height: auto;
+    width: 100%;
+    border-radius: 16px;
+}
+
+.body {
+    display: flex;
+    gap: 64px;
+    padding: 48px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.boxs {
+    width: 200px;
+    padding: 10px;
+    
+}
+
+.pic-box {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.dog-img {
+    width: 200px;
+    height: auto;
+}
+
+h2 {
+    font-size: 32px;
+    color: #1f2637;
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+h4{
+    color: gray;
+    text-align: center;
+}
+
+.midbody {
+    display: flex;
+    justify-content: center;
+    background-color: #F2F2DB;
+    padding: 48px;
+}
+
+h1.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    max-width: 750px;
+}
+
+.dogbutton {
+   
+    border: 2px solid white;
+    justify-content: center;
+}
+
+.calltoaction h2 {
+    margin: 0;
+    color: black;
+    padding: 0;
+}
+
+.Sign-Up {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    font-size: 28px;
+    max-width: 500px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #5A6D50;
+    padding: 24px;
+}
+
+.footer h3 {
+    font-weight: lighter;
+    font-size: 18px;
+}
